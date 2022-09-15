@@ -1,0 +1,29 @@
+
+
+amount = 11000; сумма для снятия
+finalAmount = amount;
+
+[5000 - 2, 2000 - 1, 1000 - 3, 500 - 14, 200 - 24, 100 - 23]
+[5000 - 1, 2000 - 2, 1000 - 2]
+
+rest = finalAmount / nominal = 2000 / 1000 = 2
+
+diff  = rest - nominalCount =  2 - 3 = -1
+finalAmount -= diff >= 0 : nominalCount * nominal ? rest * nominal;
+
+finalAmount -= 1 > 0 : 2 * 2000 : 2 * 1000
+
+
+while (finalAmount > 0){
+	foreach (Nominal nominal : nominals){
+	 rest = finalAmount / nominal = 2000 / 1000 = 2
+	 diff  = rest - nominalCount =  2 - 3 = -1
+	 finalAmount -= diff >= 0 : nominalCount * nominal ? rest * nominal;
+	}
+	 
+	finalAmount <> 0
+ 
+}
+
+
+if finalAmount <> 0
